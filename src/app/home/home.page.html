@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      ADM Shoes Planet
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <br>
+<div class="container">
+  <img src="./assets/logo.png">
+</div>
+
+<H1>"FOOT WEAR NG MASANG BATANGEO"</H1>
+
+<div class="containers">
+  <img src="./assets/front1.jpg" width="100" height="100">
+  <img src="./assets/front2.jpg" width="100" height="100">
+  <img src="./assets/front3.jpg" width="100" height="100">
+</div>
+<br>
+<br>
+<div class="text">
+<ion-button shape="round" routerLink="/brows" color="warning" size="large">
+  Start Browsing
+</ion-button>
+
+</div>
+<div class="log">
+  <ion-button id="open-modal" fill="clear">Log In</ion-button>or<ion-button routerLink="/singup" fill="clear" >Sign Up</ion-button>
+  <ion-modal #modal trigger="open-modal" [initialBreakpoint]="0.25" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+    <ng-template>
+      <ion-content>
+        <form class="form">
+          <p class="title">Login</p>
+          <p class="message">Login and full access to our app. </p>
+              <div class="flex">
+      
+          </div>  
+                  
+          <label>
+              <input required="" placeholder="" type="email" class="input">
+              <span>Email</span>
+          </label> 
+              
+          <label>
+              <input required="" placeholder="" type="password" class="input">
+              <span>Password</span>
+          </label>
+          <ion-button routerLink="/brows" class="signin">Login</ion-button>
+          <p><a href="#">Forget Password</a> </p>
+      </form>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</div>
+
+</ion-content>

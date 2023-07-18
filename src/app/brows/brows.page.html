@@ -1,0 +1,158 @@
+
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Settings</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <div class="about">
+      <ion-item>
+        <ion-label routerLink="/me">
+          PROFILE
+        </ion-label>
+      </ion-item>
+<br>
+      <ion-item>
+        <ion-label routerLink="/support">
+          HELP
+        </ion-label>
+      </ion-item>
+<br>
+      <ion-item>
+        <ion-label routerLink="/about">
+          ABOUT
+        </ion-label>
+      </ion-item>
+<br>
+      <ion-item>
+        <ion-label routerLink="/home">
+          LOG OUT
+        </ion-label>
+      </ion-item>
+    </div>
+    </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+         <ion-title>ADM Shoes Planet</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </div>
+ 
+  <h1>ADM Shoes Planet</h1>
+
+  <ion-footer collapse="fade">
+    <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <ion-icon color="primary" routerLink="/cart" name="cart-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+          
+        </ion-col>
+
+        <ion-col>
+          <ion-icon color="primary" routerLink="/brows" name="home-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        </ion-col>
+  
+        <ion-col>
+          <ion-icon color="primary" routerLink="/reserve" name="reader-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        </ion-col>
+  
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+   
+  </ion-footer>
+<ion-content>
+  
+  <div class="tollbar">
+  <ion-searchbar animated="true" placeholder="search"></ion-searchbar>
+  </div>
+  <br>
+  <div class="card"><img src="./assets/logo.png" height="200px">
+    <div class="card__content"><img src="./assets/logos.jpg"n height="200px" width="550px">
+    </div>
+  </div>
+  <br>
+
+  <h2>CATEGORIES</h2>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col> <ion-card routerLink="/men">
+        <img src="./assets/MEN.jpg" height="118px">
+        <ion-card-header>
+          <ion-card-title>MEN</ion-card-title>
+        </ion-card-header>
+      </ion-card></ion-col>
+
+      <ion-col>  <ion-card routerLink="/women">
+    <img src="./assets/women.jpg">
+    <ion-card-header>
+      <ion-card-title>WOMEN</ion-card-title>
+    </ion-card-header>
+  </ion-card></ion-col>
+
+
+      <ion-col>  <ion-card routerLink="/kids">
+    <img src="./assets/KIDS.webp" height="120px" width="120px">
+    <ion-card-header>
+      <ion-card-title>KIDS</ion-card-title>
+    </ion-card-header>
+  </ion-card></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h2>PROMO</h2>
+  <div class="card"><img src="./assets/pt">
+    <div class="card__content">
+    </div>
+  </div>
+  <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col> <ion-card routerLink="/promo1">
+        <img src="./assets/logo.png" />
+        <ion-card-header>
+          <ion-card-title>3 for 999</ion-card-title>
+        </ion-card-header>
+      </ion-card></ion-col>
+
+      <ion-col>  <ion-card routerLink="/promo2">
+    <img src="./assets/logo.png" />
+    <ion-card-header>
+      <ion-card-title>2 for 1200</ion-card-title>
+    </ion-card-header>
+  </ion-card></ion-col>
+
+
+      <ion-col>  <ion-card routerLink="/promo3">
+    <img src="./assets/logo.png" />
+    <ion-card-header>
+      <ion-card-title>2 for 3400</ion-card-title>
+    </ion-card-header>
+  </ion-card></ion-col>
+    </ion-row>
+  </ion-grid>
+  <br>
+
+  <h2>COMING SOON</h2>
+  <div class="card3"><img src="./assets/Aparels.jpg">
+    <div class="card__content"><img src="./assets/BANNER.webp">
+    </div>
+  </div>
+  <br>
+  
+</ion-content>
+
+
+
+
+

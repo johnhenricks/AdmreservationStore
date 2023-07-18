@@ -1,0 +1,395 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>ADM Shoes Planet (Kids)</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="tollbar">
+    <ion-searchbar animated="true" placeholder="search"></ion-searchbar>
+  </div>
+<br>
+
+<ion-card>
+  <img src="/assets/kids1.webp">
+  <ion-card-header>
+    <ion-card-title>Nike Star Runner 4</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option [disabled]="true" value="33">33</ion-select-option>
+        <ion-select-option [disabled]="true" value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option [disabled]="true" value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option [disabled]="true" value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option [disabled]="true" value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option [disabled]="true" value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids2.webp">
+  <ion-card-header>
+    <ion-card-title>Nike Air Zoom Pegasus 40 PR</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option [disabled]="true" value="31">31</ion-select-option>
+        <ion-select-option [disabled]="true" value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option [disabled]="true" value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option [disabled]="true" value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option [disabled]="true" value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option [disabled]="true" value="Balayan">Balayan</ion-select-option>
+        <ion-select-option [disabled]="true" value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart2">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart2">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids3.webp">
+  <ion-card-header>
+    <ion-card-title>Nike Revolution 6</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button routerLink="/singup">Add to cart</ion-button>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids4webp.webp">
+  <ion-card-header>
+    <ion-card-title>Nike Aqua Sock 360</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart3">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart3">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids5.avif">
+  <ion-card-header>
+    <ion-card-title>Adidas Breaknet X Disney Mickey Mouse</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart4">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart4">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids6.webp">
+  <ion-card-header>
+    <ion-card-title>Jordan 1 Low Alt</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart5">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart5">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids7jpg.jpg">
+  <ion-card-header>
+    <ion-card-title>Giannis Immortality 2 SE</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart6">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart6">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/Adilette.avif">
+  <ion-card-header>
+    <ion-card-title>Adilette Sandals</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart7">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart7">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+<ion-card>
+  <img src="/assets/kids9.webp">
+  <ion-card-header>
+    <ion-card-title>Lebron Witness 7</ion-card-title>
+  </ion-card-header>
+  <ion-list>
+    <ion-item>
+      <ion-select label="Size">
+        <ion-select-option value="31">31</ion-select-option>
+        <ion-select-option value="32">32</ion-select-option>
+        <ion-select-option value="33">33</ion-select-option>
+        <ion-select-option value="34">34</ion-select-option>
+        <ion-select-option value="35">35</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Branch">
+        <ion-select-option value="Lemery">Lemery</ion-select-option>
+        <ion-select-option value="Cuenca">Cuenca</ion-select-option>
+        <ion-select-option value="Nasugbu">Nasugbu</ion-select-option>
+        <ion-select-option value="Lipa">Lipa</ion-select-option>
+        <ion-select-option value="Silang">Silang</ion-select-option>
+        <ion-select-option value="Tanauan">Tanauan</ion-select-option>
+        <ion-select-option value="Talisay">Talisay</ion-select-option>
+        <ion-select-option value="BatangasCity">Batangas City</ion-select-option>
+        <ion-select-option value="Balayan">Balayan</ion-select-option>
+        <ion-select-option value="Bauan">Bauan</ion-select-option>
+        <ion-select-option value="Lemery2">Lemery 2</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-button id="trigger-cart8">Add to cart</ion-button>
+<ion-popover trigger="trigger-cart8">
+  <ng-template>
+    <ion-content class="ion-padding">This item is added to cart</ion-content>
+  </ng-template>
+</ion-popover>
+</ion-card>
+<br>
+
+</ion-content>
+
+<ion-footer collapse="fade">
+  <ion-toolbar>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/cart" name="cart-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        
+      </ion-col>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/brows" name="home-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+      </ion-col>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/reserve" name="reader-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-toolbar>
+ 
+</ion-footer>
+
+

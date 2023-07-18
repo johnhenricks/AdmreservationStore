@@ -1,0 +1,91 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>RESERVATION</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="card">YOUR ORDER</div>
+    <BR>
+    
+    <ion-card>
+        <ion-list>
+          <ion-item>
+            <ion-thumbnail >
+              <img src="/assets/curry10.webp" />
+            </ion-thumbnail>
+            <h1><i>Curry Flow 10</i></h1>
+
+            <ion-button id="click-trigger">VIEW DETAILS</ion-button>
+            <ion-popover trigger="click-trigger" triggerAction="click" >
+  <ng-template>
+    <ion-content class="ion-padding">
+        <img src="/assets/curry10.webp">
+        <h1><i>Curry Flow 10</i></h1>
+        <ion-select label="Branch: " placeholder="Lemery"></ion-select>
+        
+        <ion-select label="Size: " placeholder="45"></ion-select>
+        <h3>PICK OFF</h3>
+        <ion-datetime minuteValues="0,15,30,45" dayValues="5,6,7,"></ion-datetime>
+        <ion-button color="dark">CANCEL</ion-button>
+    </ion-content>
+  </ng-template>
+</ion-popover>
+
+        </ion-item>
+    </ion-list>    
+</ion-card>
+
+<ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail >
+        <img src="/assets/slides.jpg" />
+      </ion-thumbnail>
+      <h1><i>Feinoar Slides</i></h1>
+
+      <ion-button id="click2-trigger">VIEW DETAILS</ion-button>
+      <ion-popover trigger="click2-trigger" triggerAction="click">
+<ng-template>
+<ion-content class="ion-padding">
+  <img src="/assets/slides.jpg" />
+  <h1><i>Feinoar Slides</i></h1>
+  <ion-select label="Branch: " placeholder="Cuenca"></ion-select>
+  
+  <ion-select label="Size: " placeholder="44"></ion-select>
+  <h3>PICK OFF</h3>
+  <ion-datetime minuteValues="0,15,30,45" dayValues="5,6,7,"></ion-datetime>
+  <ion-button color="dark">CANCEL</ion-button>
+</ion-content>
+</ng-template>
+</ion-popover>
+                                                   
+  </ion-item>
+</ion-list>    
+</ion-card>
+
+
+</ion-content>
+<ion-footer collapse="fade">
+    <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+  
+        <ion-col>
+          <ion-icon color="primary" routerLink="/cart" name="cart-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+          
+        </ion-col>
+  
+        <ion-col>
+          <ion-icon color="primary" routerLink="/brows" name="home-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        </ion-col>
+  
+        <ion-col>
+          <ion-icon color="primary" routerLink="/reserve" name="reader-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        </ion-col>
+  
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+  </ion-footer>
+  

@@ -1,0 +1,84 @@
+  
+
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-button>
+        <ion-icon name="cart" slot="end"></ion-icon>
+        </ion-button>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding"></ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+         <ion-title>SHOE SHOP</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  </div>
+ 
+  <h1>SHOE SHOP</h1>
+
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="home" aria-hidden="true"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+  
+    <ion-tab-button tab="globe">
+      <ion-icon name="globe" aria-hidden="true"></ion-icon>
+      <ion-label>Promos</ion-label>
+    </ion-tab-button>
+  
+    <ion-tab-button tab="person">
+      <ion-icon name="person" aria-hidden="true"></ion-icon>
+      <ion-label>Me</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>
+
+<ion-content>
+
+<ion-searchbar></ion-searchbar>
+
+<ion-segment value="buttons">
+  <ion-segment-button value="default">
+    <ion-label>All</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="segment">
+    <ion-label>Men</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="buttons">
+    <ion-label>Women</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="option">
+    <ion-label>Kids</ion-label>
+  </ion-segment-button>
+</ion-segment>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>NIKE RENEW ELEVATE</ion-card-title>
+  </ion-card-header>
+  <img src="./assets/front1.jpg" />
+ 
+  <ion-card-content>
+    Here's a small text description for the card content. Nothing more, nothing less.
+  </ion-card-content>
+
+  <ion-button id="trigger-button">Add to cart</ion-button>
+<ion-popover trigger="trigger-button">
+<ng-template>
+  <ion-content class="ion-padding">This item is added to cart</ion-content>
+</ng-template>
+</ion-popover>
+</ion-card>
+
+
+
+</ion-content>

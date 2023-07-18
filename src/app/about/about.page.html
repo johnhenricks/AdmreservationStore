@@ -1,0 +1,570 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>About Us</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-footer collapse="fade">
+  <ion-toolbar>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/cart" name="cart-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+        
+      </ion-col>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/brows" name="home-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+      </ion-col>
+
+      <ion-col>
+        <ion-icon color="primary" routerLink="/reserve" name="reader-outline" aria-hidden="true" class="bottom-nav"></ion-icon>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-toolbar>
+ 
+</ion-footer>
+
+<ion-content>
+<div>
+<h3>ADM Shoe Company is a retail store that started in Lemery, Batangas and
+  has grown into a fine business with more than 10 physical stores in the province.
+  This retail industry sells quality products in a consumption quantity for the endusers. This store sells shoes mostly out of all the other products such as clothes.</h3>
+</div>
+
+
+<ion-content class="ion-padding">
+  <ion-button id="open-modal" expand="block" color="light">Visit out Branches</ion-button>
+
+  <img src="./assets/logo.jpg">
+
+  <ion-modal #modal trigger="open-modal" [initialBreakpoint]="0.75" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+    <ng-template>
+      <ion-content>
+        <ion-searchbar></ion-searchbar>
+<div class="branch">
+        <ion-button color="light" id="lemery">ADM SHOES PLANET LEMERY</ion-button>
+        <ion-modal #modal trigger="lemery" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Lemery</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.2528463411245!2d120.9105105068955!3d13.88382398969029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0b1500be521b%3A0x49949e65a455526f!2sADM%20SHOES%20PLANET%20FOOTWEAR%20STORE!5e0!3m2!1sen!2sph!4v1689294477425!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              <ion-title class="overview">OVERVIEW</ion-title>
+
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>Illustre Ave, District 3, Lemery, 4209 Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+  
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="lemery2">ADM SHOES PLANET LEMERY BRANCH 2</ion-button>
+        <ion-modal #modal trigger="lemery2" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Lemery</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.3279693105483!2d120.91186378885496!3d13.879327399999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0bfebe4277f7%3A0xa36c78e2790263ec!2sADM%20SHOES%20PLANET%20LEMERY%20BRANCH%202!5e0!3m2!1sen!2sph!4v1689298113758!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              <ion-title class="overview">OVERVIEW</ion-title>
+
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>VWH8+PGQ, Illustre Ave, dist 1, Lemery, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9:30 AM–6:30 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+        
+        <ion-button color="light" id="bauan">ADM SHOES PLANET BAUAN</ion-button>
+        <ion-modal #modal trigger="bauan" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Bauan</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.7980485005924!2d121.00353308885498!3d13.791044500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0ff0fb04d505%3A0x425c439fef4dab8d!2sADM%20SHOES%20PLANET%20BAUAN!5e0!3m2!1sen!2sph!4v1689298547780!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <ion-title class="overview">OVERVIEW</ion-title>
+
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>Q2R5+C67, Sta. Cruz, Poblacion, Bauan, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9:30 AM–6:30 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9:30 AM–6:30 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+        
+        <ion-button color="light" id="balayan">ADM SHOES PLANET BALAYAN</ion-button>
+        <ion-modal #modal trigger="balayan" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Balayan</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.333219045313!2d120.72239908885497!3d13.938754300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bda35fec82cb7b%3A0xbcdcec202de30d88!2sADM%20SHOES%20PLANET%20BALAYAN!5e0!3m2!1sen!2sph!4v1689298644883!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              <ion-title class="overview">OVERVIEW</ion-title>
+
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>M. Turibio st, Brgy. 3, Balayan, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="batangas">ADM SHOES PLANET Batangas City</ion-button>
+        <ion-modal #modal trigger="batangas" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Batangas City</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.279543241415!2d121.052725388855!3d13.7620085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0553046ce5bb%3A0xa9ce7a2ea519272b!2sADM&#39;s%20Shoes%20Planet%20-%20Batangas%20City!5e0!3m2!1sen!2sph!4v1689299027905!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>P. Burgos, Poblacion, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Friday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 8 AM–8 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 8 AM–8 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="talisay">ADM SHOES PLANET TALISAY</ion-button>
+        <ion-modal #modal trigger="talisay" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Talisay</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.710529320631!2d121.03359038885498!3d14.094257700000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd71cec9db2adb%3A0xb53354ed9f01569b!2sADM%20SHOES%20PLANET%20TALISAY%20BATANGAS%20BRANCH!5e0!3m2!1sen!2sph!4v1689299180858!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>32VQ+P65, Talisay, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0997 495 2196</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="tanauan">ADM SHOES PLANET TANAUAN</ion-button>
+        <ion-modal #modal trigger="tanauan" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Tanauan</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990566.3461139398!2d120.12434970005397!3d14.11257069393179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6f4d519644d5%3A0xfe9d6ffd05d9fa03!2sADM%20shoes%20planet%20tanauan!5e0!3m2!1sen!2sph!4v1689299310999!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>35G2+6HF, President Jose P. Laurel Hwy, Tanauan, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–7:30 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–7:30 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0997 267 9241</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="silang">ADM SHOES PLANET SILANG Cavite</ion-button>
+        <ion-modal #modal trigger="silang" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Silang Cavite</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990566.3461139398!2d120.12434970005397!3d14.11257069393179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7f4e653003d1%3A0x3c29286452c2f3ac!2sADM%20SHOES%20PLANET%20SILANG%20CAVITE!5e0!3m2!1sen!2sph!4v1689299719254!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>JP. RIZAL ST M, Kiamzon, Silang, 4112 Cavite</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0935 777 1211</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="lipa">ADM SHOES PLANET LIPA</ion-button>
+        <ion-modal #modal trigger="lipa" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Lipa</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5476.237836386534!2d121.13126905566622!3d13.941634015040966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6cc4b859c1e1%3A0x4231eac8f9030b00!2sADM&#39;S%20SHOES%20PLANET!5e0!3m2!1sen!2sph!4v1689299800978!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>W4RQ+V23, President Jose P. Laurel Hwy, Lipa, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="nasugbu">ADM SHOES PLANET NASUGBU</ion-button>
+        <ion-modal #modal trigger="nasugbu" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Nasugbu</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7740.328800931841!2d120.62684959650515!3d14.067467500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd975b06ca39df%3A0xcd4ade52e05f4ee5!2sADM&#39;s%20Shoes%20Planet%20Nasugbu!5e0!3m2!1sen!2sph!4v1689299883502!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>3J8M+X7Q, J P Laurel St, Nasugbu, 4231 Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0966 793 3067</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              </div>  
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+
+        <ion-button color="light" id="cuenca">ADM SHOES PLANET CUENCA</ion-button>
+        <ion-modal #modal trigger="cuenca" [initialBreakpoint]="1" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+          <ng-template>
+            <ion-header class="head">
+              <ion-toolbar>
+              <ion-title>ADM Shoes Planet Cuenca</ion-title>
+              </ion-toolbar>
+            </ion-header>
+            <ion-content color="light">
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247871.86248036678!2d120.76785564422609!3d13.899076438463696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0d0ab39e643b%3A0xbb33f7aca1800fac!2sADM&#39;S%20SHOES%20PLANET!5e0!3m2!1sen!2sph!4v1689300051166!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="label">
+            <ion-icon name="pin-outline"></ion-icon>
+            <ion-label>V3X4+JGJ, National Hwy, Cuenca, Batangas</ion-label>
+          </div>
+            
+            <ion-accordion-group>
+              <ion-accordion value="first">
+                <ion-item slot="header" color="light">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <ion-label>Door Hours</ion-label>
+                </ion-item>
+
+                <div class="ion-padding" slot="content">Monday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Tuesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Wednesday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Thursday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Friday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Saturday, 9 AM–6 PM</div>
+                <div class="ion-padding" slot="content">Sunday, 9 AM–6 PM</div>
+
+              </ion-accordion>
+            </ion-accordion-group>
+          <div class="label">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="label">0936 044 3505</ion-label>
+          </div>
+          <div class="label">
+            <ion-icon name="earth-outline"></ion-icon>
+            <ion-label class="label">www.facebook.com/profile.php?id=100091311364157</ion-label>
+          </div>
+              
+            </div>
+            </ion-content>
+          </ng-template>
+        </ion-modal>
+      </div>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</ion-content>
+</ion-content>
